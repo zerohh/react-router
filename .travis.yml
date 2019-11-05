@@ -1,3 +1,6 @@
+#travis travis 的配置文件，
+#travis 是一种可持续集成(CI)工具，代码提交后自动构建，与github集成的很好，很多github的开源项目都使用 travis 进行CI。www.travis-ci.org
+
 language: node_js
 node_js: node
 cache: npm
