@@ -23,3 +23,7 @@ husky 能够帮你阻挡住不好的代码提交和推送。一句话很精准�
 #### browserslist
 
 browserslist 这个配置能够分享目标浏览器和 nodejs 版本在不同的前端工具。这些工具能根据目标浏览器自动来进行配置
+
+#### lerna
+
+lerna 是包管理工具
