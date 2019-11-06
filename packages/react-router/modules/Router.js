@@ -6,6 +6,17 @@ import RouterContext from "./RouterContext";
 
 /**
  * The public API for putting history on context.
+ *
+ * Router 组件做的主要的事情是为RouterContext添加了值：
+ *
+ *
+        {
+          history: this.props.history,
+          location: this.state.location,
+          match: Router.computeRootMatch(this.state.location.pathname),
+          staticContext: this.props.staticContext
+        }
+ *
  */
 class Router extends React.Component {
   static computeRootMatch(pathname) {

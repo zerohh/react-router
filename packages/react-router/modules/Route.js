@@ -1,7 +1,7 @@
 import React from "react";
 import { isValidElementType } from "react-is";
 import PropTypes from "prop-types";
-import invariant from "tiny-invariant";
+import invariant from "tiny-invariant"; //根据输入的条件和失败的信息，在条件不成立的时候，跑出错误
 import warning from "tiny-warning";
 
 import RouterContext from "./RouterContext";
